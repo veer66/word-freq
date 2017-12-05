@@ -1,0 +1,20 @@
+[package]
+name = "chamkho"
+version = "0.1.0"
+authors = ["Vee Satayamas <vsatayamas@gmail.com>"]
+description = "Word frequency counter written in Rust"
+documentation = "https://github.com/veer66/word-freq/blob/master/README.md"
+homepage = "https://gitlab.com/veer66/word-freq"
+repository = "https://gitlab.com/veer66/word-freq.git"
+readme = "README.md"
+keywords = ["text"]
+license = "BSD-2-Clause"
+
+[[bin]]
+name = "word-freq"
+path = "src/main.rs"
+
+[dependencies]
+regex = "0.2.3"
+lazy_static = "0.2.11"
+
